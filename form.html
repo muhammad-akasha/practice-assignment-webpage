@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form in Html</title>
+    <style> body{background-color: lightseagreen} h1{text-align: center;text-decoration: underline;text-transform: uppercase} p{text-transform: capitalize;color: red;font-family: sans-serif ;font-style: oblique} h2{text-transform: uppercase;text-indent: 60px}
+    </style>
+</head>
+<body>
+    <ul><li><a href="./../../../../../index.html">Go back to text page</a></li></ul>
+    <form action="www.example.com">
+       <h1>form in html</h1><hr>
+       <h2>details</h2><hr>
+        <p>username:
+            <input type="text" name="username" id="username" required>
+        </p>
+        <p>password:
+            <input type="password" name="password" id="password" required>
+        </p><p>address: <br>
+       <textarea name="address" placeholder="enter your address" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="submit">
+        <p>select your favourite sports</p>
+        
+        <input type="radio" name="fav sport" id="fav sport" value="cricket">cricket <br>
+        <input type="radio" name="fav sport" id="fav sport" value="hockey">hockey <br>
+        <input type="radio" name="fav sport" id="fav sport" value="tennis">tennis <br>
+        <p>select your favourite movie: <br>
+        <input type="checkbox" name="fav movie" id="fav movie" value="3 idoits">3 idoits
+        <input type="checkbox" name="fav movie" id="fav movie" value="ek tha tiger">ek tha tiger
+        <input type="checkbox" name="fav movie" id="fav movie" value="animal">animal</p><br>
+        <p>what is your national language</p>
+        <select name="national lan" id="national lan">
+            <option value="urdu">urdu</option>
+            <option value="english">english</option>
+            <option value="hindi">hindi</option>
+            <option value="francis  ">francis</option>
+        </select> <br><br>
+       <p>upload your fav song</p>
+       <input type="file" name="fav song" id="fav song"> <br>
+       <input type="submit" value="upload"><br> <br>
+       <label for="username">today date</label>
+       <input type="date" name="today date" id="today date">
+       <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
